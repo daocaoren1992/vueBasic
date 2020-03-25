@@ -37,4 +37,7 @@ sort   06目录
 3. computed计算属性
 https://segmentfault.com/a/1190000010408657
 
-4. 
+4. 快速构建对象
+ let name = "tome";
+ let age = 29;
+ const comment = {name, age};
