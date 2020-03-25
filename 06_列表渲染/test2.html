@@ -8,6 +8,9 @@
 <!--
 1. 列表过滤
 2. 列表排序
+
+3. @1. https://blog.csdn.net/m0_38134431/article/details/83822446
+   @2.
 -->
 
 <div id="demo">
@@ -41,8 +44,9 @@
 
     computed: {
       filterPersons () {
-//        debugger
+       debugger
         // 取出相关数据
+        //@1ES6中的对象解构赋值
         const {searchName, persons, orderType} = this
         let arr = [...persons]
         // 过滤数组
