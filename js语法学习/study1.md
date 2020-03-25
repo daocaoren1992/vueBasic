@@ -41,3 +41,42 @@ https://segmentfault.com/a/1190000010408657
  let name = "tome";
  let age = 29;
  const comment = {name, age};
+ 
+ 5. reduce
+ var todos=  [
+   {title:'吃饭',complete:true},
+   {title:'睡觉',complete:true},
+   {title:'coding',complete:false}
+ ];
+ var cnt = todos.reduce((pre,current) => pre += (current.complete?1:0),0)
+ 
+ 6.unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度
+ var arr = new Array()
+ arr[0] = "George"
+ arr[1] = "John"
+ arr[2] = "Thomas"
+ arr.unshift("William")
+ 
+ 7. import import default的区别
+ https://blog.51cto.com/11871779/2348288
+ 
+ 8. 
+ let rawObject = [
+   {
+   name : "zhangsan",
+   age : 29,
+   hobby: "basketball"
+   },
+   {
+     name : "lisi",
+     age : 30,
+     hobby: "pingpang"
+   }
+ ]
+ 
+9.
+
+ const personArray = rawObject.map(item=>({
+   myName : item.name,
+   myAge : item.age
+ }))
